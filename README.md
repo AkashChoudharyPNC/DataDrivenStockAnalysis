@@ -10,27 +10,28 @@ following real-world data engineering and analytics practices.
 
 ---
 
-## 🧱 Project Structure
 DataDrivenStockAnalysis/
-├── app.py
-├── README.md
-├── requirements.txt
-├── .gitignore
+│
+├── app.py                     # Streamlit dashboard application
+├── README.md                  # Project documentation
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Ignored files and folders
 │
 ├── data/
-│   ├── raw_yml/               # Raw stock data (YAML)
+│   ├── raw_yml/               # Raw stock data files (YAML format)
 │   ├── processed_csv/         # Cleaned stock-wise CSV files
-│   ├── market_summary.csv     # Stock performance summary
-│   ├── sector_performance.csv # Sector-wise analysis
-│   ├── stock_correlation.csv  # Correlation matrix
-│   └── sector_mapping.csv     # Stock-to-sector mapping
+│   ├── market_summary.csv     # Stock-level performance metrics
+│   ├── sector_performance.csv # Sector-wise average yearly returns
+│   ├── stock_correlation.csv  # Stock price correlation matrix
+│   └── sector_mapping.csv     # Stock-to-sector mapping file
 │
 ├── scripts/
-│   ├── yaml_to_csv.py         # YAML → CSV conversion
-│   ├── data_cleaning.py       # Data cleaning & daily returns
-│   ├── analysis.py            # Market & sector analysis
+│   ├── yaml_to_csv.py         # Convert raw YAML data to CSV format
+│   ├── data_cleaning.py       # Data cleaning & daily return calculation
+│   ├── analysis.py            # Market & sector-wise analysis
 │   ├── correlation.py         # Stock correlation analysis
-│   └── cumulative_return.py   # Cumulative returns (Top 5 stocks)
+│   └── cumulative_return.py   # Cumulative return calculation (Top 5 stocks)
+
 
 ---
 
