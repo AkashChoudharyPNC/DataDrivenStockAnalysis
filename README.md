@@ -74,17 +74,26 @@ DataDrivenStockAnalysis/
 ## ▶️ How to Run
 
 ### Install dependencies
+```
+
 pip install -r requirements.txt
+```
 
 ### Execute data pipeline (run in order)
+```
+
 python scripts/yaml_to_csv.py
 python scripts/data_cleaning.py
 python scripts/analysis.py
 python scripts/correlation.py
 python scripts/cumulative_return.py
+```
 
 ### Launch dashboard
+```
+
 python -m streamlit run app.py
+```
 
 ---
 
