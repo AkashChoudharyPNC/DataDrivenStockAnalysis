@@ -114,6 +114,22 @@ An interactive Nifty 50 Stock Performance Dashboard displaying:
 
 ---
 
+## 🚀 Live Demo (Streamlit App)
+
+The project is deployed using **Streamlit Cloud** and can be accessed here:
+
+🔗 **Live Dashboard:**  
+https://datadrivenstockanalysis.streamlit.app/
+
+This interactive dashboard provides:
+- Market overview KPIs (Green/Red stocks, Avg return)
+- Top gainers and losers
+- Volatility analysis
+- Sector-wise performance
+- Stock correlation insights
+
+---
+
 ## 👤 Author
 Akash Choudhary  
 Data Analyst | Python | SQL | Data Visualization
