@@ -9,6 +9,7 @@ The project demonstrates a complete data pipeline — from raw data ingestion to
 following real-world data engineering and analytics practices.
 
 ---
+```
 
 DataDrivenStockAnalysis/
 │
@@ -32,6 +33,7 @@ DataDrivenStockAnalysis/
 │   ├── correlation.py         # Stock correlation analysis
 │   └── cumulative_return.py   # Cumulative return calculation (Top 5 stocks)
 
+```
 
 ---
 
